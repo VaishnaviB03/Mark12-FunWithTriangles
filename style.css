@@ -1,6 +1,10 @@
 body{
     /* padding: 6rem; */
     background-image: url("/image/triangle.png");
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .nav{
@@ -31,7 +35,8 @@ a{
     width: 20vw;
     height: 60vh;
     padding: 2rem;
-    margin-left: 450px;
+    margin: 0 auto;
+    margin-top: 5rem;
 }
 
 label{
@@ -40,11 +45,12 @@ label{
 }
 
 input{
-    margin-left: 2rem;
+    margin: 1rem;
     padding: 0.2rem;
 }
 
 #btn{
+    margin:1rem;
     background-color: #E7E9E7;
     border: none;
     padding: 0.5rem;

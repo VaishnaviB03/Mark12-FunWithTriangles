@@ -3,7 +3,7 @@ var btn = document.querySelector("#btn");
 var output = document.querySelector("#output");
 
 
-const ans = ["90", "right angled triangle"]
+const ans = ["90", "right angled triangle","equilateral"]
 
 function checkScore(){
 
